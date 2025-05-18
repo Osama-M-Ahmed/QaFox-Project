@@ -14,7 +14,7 @@ This repository contains a robust and scalable automated testing project built w
 The project follows the **Page Object Model (POM)** design pattern to ensure modularity, reusability, and maintainability.
 
 <p>
-  <img src="screenshots/qafoxscreenshot.png" width="70%" title="Website Screenshot"  />
+  <img src="screenshots/oQF2P21qTD.png" width="70%" title="Website Screenshot"  />
 </p>
 
 ## 📑 Technologies & Skill & Features
