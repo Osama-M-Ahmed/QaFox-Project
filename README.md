@@ -49,23 +49,37 @@ git clone https://github.com/Osama-M-Ahmed/QaFox-Project
 
 ## 📁 Project Structure
 ```
-├── ScreenShots/
-├── allure-results/
-├── pom.xml
-├── src/
-│   ├── main/java/
-│   ├── main/resources/
-│   └── test/
-│       ├── java/
-│       │   ├── pages/
-│       │   ├── tests/
-│       │   └── utils/
-│       └── resources/
-│           └── data/
-│               └── conf.properties
-├── target/
-├── test-output/
-└── testng.xml
+src
+├── main
+│ ├── java
+│ │ ├── Pages
+│ │ │ ├── ChangePasswordPage.java
+│ │ │ ├── HomePage.java
+│ │ │ ├── LoginPage.java
+│ │ │ ├── PageBase.java
+│ │ │ ├── ProductPage.java
+│ │ │ └── RegisterPage.java
+│ │ └── Utils
+│ │ ├── ScreenShot.java
+│ │ └── Utils.java
+│ └── resources
+│ └── Features
+│ └── Register.feature
+├── test
+│ ├── java
+│ │ ├── Base
+│ │ │ └── TestBase.java
+│ │ ├── StepDefs
+│ │ │ ├── Hooks.java
+│ │ │ └── Register_StepDef.java
+│ │ └── Tests
+│ │ ├── AddToCartTest.java
+│ │ ├── ChangePasswordTest.java
+│ │ ├── LoginTest.java
+│ │ └── RegisterTest.java
+│ └── resources
+│ └── Data
+│ └── data.properties
 
 ```
 
