@@ -1,0 +1,44 @@
+<suite name="Suite1" verbose="1">
+
+    <test name="Regression1">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Tests.RegisterTest">
+                <methods>
+                    <include name="userCanRegisterSuccessfully"/>
+                    <include name="userCannotRegisterWhenFirstNameFieldLeftBlank"/>
+                    <include name="userCannotRegisterWhenLastNameFieldLeftBlank"/>
+                    <include name="userCannotRegisterWhenEmailFieldLeftBlank"/>
+                    <include name="userCannotRegisterWhenTelephoneFieldLeftBlank"/>
+                    <include name="userCannotRegisterWhenPasswordFieldLeftBlank"/>
+                    <include name="userCannotRegisterWhenConfirmPasswordFieldLeftBlank"/>
+                    <include name="userCannotRegisterWithAlreadyRegisteredEmail"/>
+                    <include name="userCannotRegisterWhenPrivacyPolicyNotChecked"/>
+                </methods>
+            </class>
+            <class name="Tests.LoginTest">
+                <methods>
+                    <include name="userCanLoginSuccessfully"/>
+                    <include name="userCannotLoginWithInvalidEmail"/>
+                    <include name="userCannotLoginWithInvalidPassword"/>
+                    <include name="userCannotLoginWhenEmailFieldLeftBlank"/>
+                    <include name="userCannotLoginWhenPasswordFieldLeftBlank"/>
+                    <include name="userCannotLoginWithEmptyEmail"/>
+                    <include name="userCannotLoginWithEmptyPassword"/>
+                    <include name="userCannotLoginWithEmptyFields"/>
+
+                </methods>
+            </class>
+
+            <class name="Tests.ChangePasswordTest">
+                <methods>
+                    <include name="userCanChangePasswordSuccessfully"/>
+                    <include name="userCannotChangePasswordToTheSamePassword"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
