@@ -32,7 +32,7 @@ The project follows the **Page Object Model (POM)** design pattern to ensure mod
   allure serve allure-results
   ```
 <p>
-  <img src="screenshots/allurescreenshot.png" width="50%" title="Allure Screenshot"  />
+  <img src="screenshots/oQF2P21qTD.png" width="50%" title="Allure Screenshot"  />
 </p>
 
 ## 📊 Reports Examples
