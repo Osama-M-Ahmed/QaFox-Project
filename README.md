@@ -43,7 +43,8 @@ The project follows the **Page Object Model (POM)** design pattern to ensure mod
 ## 🚀 Getting Started
 
 1. **Clone the Repository:**
-   ```bash git clone https://github.com/Osama-M-Ahmed/QaFox-Project
+   ```bash
+    git clone https://github.com/Osama-M-Ahmed/QaFox-Project.git
     ```
 
 ## 📁 Project Structure
